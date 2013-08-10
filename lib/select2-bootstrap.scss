@@ -13,7 +13,7 @@
   &.input-xlarge     { width: 270px; }
   &.input-xxlarge    { width: 530px; }
   // Size to the width of a default text input.
-  &.input-default    { width: 220px; }
+  &.input-default, & { width: 220px; }
   &[class*="span"] {
     float: none;
     margin-left: 0;
